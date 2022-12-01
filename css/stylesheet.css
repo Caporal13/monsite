@@ -1,0 +1,338 @@
+body{
+font-family: arial, helvetica, sans-serif;
+font-size:15px;
+line-height:1.5;
+padding:0;
+margin:0;
+background-color: black;
+text-decoration-color: white;
+color: white;
+}
+
+/* Global */
+.container{
+  width: 80%;
+text-align: justify;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container img{
+  margin-left: 20px
+}
+
+.button_1{
+  height: 23px;
+  width: 100px;
+  margin: 15px;
+}
+
+.article{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header{
+  background-color: black;
+  color: white;
+  background-image: url("./img/horror.jpg" );
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #FFD700 3px solid;
+}
+
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  display: inline;
+  padding: 0 15px 0 15px;
+  float: left;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  float: left;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header a:hover{
+  font-weight: bold;
+}
+
+.link a{
+  outline: none;
+  text-decoration: none;
+}
+
+.link a:link{
+  color: white
+}
+
+.link a:visited{
+  color: white
+}
+
+.link a:hover{
+color: yellow
+}
+
+
+
+/* Showcase */
+#showcase{
+  min-height: 200px;
+  text-align: center;
+}
+
+#showcase h1{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 40px
+}
+
+#showcase p{
+  font-size: 15px
+}
+
+#showcaserpg{
+  min-height: 200px;
+  text-align: left;
+}
+
+#showcaserpg h1{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+#showcaserpg p{
+  font-size: 15px
+}
+
+#showcaserpg p{
+  float: left;
+}
+
+#showcaserpg img{
+float: right;
+}
+
+#table form td{
+  padding-top: 15px;
+}
+/*article */
+
+.article h2{
+  margin-top: 60px;
+  margin-bottom: 10px
+}
+
+.article h3{
+  padding-top: 20px
+}
+
+.dl img {
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+
+.article a{
+  outline: none;
+  text-decoration: none;
+}
+
+.article a:link{
+  color: white
+}
+
+.article a:visited{
+  color: white
+}
+
+.article a:hover{
+color: yellow
+}
+
+.dl img{
+  margin-right: 20px
+}
+
+ /* newsletter */
+#newsletter{
+  padding: 15px;
+  margin: 15px
+  color; white;
+background-image: url("./img/horror.jpg");
+
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 10px
+}
+
+#newsletter input[type="email"]{
+  height: 25px;
+  width: 220px;
+}
+
+
+
+
+
+/* boxes */
+#boxes{
+  margin-top: 100px
+}
+
+#boxes .box{
+  float: left;
+  width: 30%
+}
+
+#boxes .box{
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+}
+
+#boxes .box img {
+  width: 130px
+}
+
+#boxes a{
+  outline:none;
+  text-decoration: none;
+}
+
+#boxes a:link{
+  color: white
+}
+
+#boxes a:visited{
+  color: white
+}
+
+#boxes a:hover{
+color: yellow
+}
+
+/* game */
+#jeu{
+  margin: 20px;
+  height: 700px;
+  width: 700px;
+  background-image: url(../img/inn1.jpg);
+  background-size: 700px;
+
+}
+#jeu h1{
+  margin:20px
+}
+#jeu 
+#btn-red{
+  background-image: url(../img/butcthulhu.jpg);
+  background-size: 75px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  position :relative;
+  animation-name : rouge;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#btn-blue{
+  background-image: url(../img/butpouple.jpg);
+  background-size: 75px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  position :relative;
+  animation-name : bleu;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#btn-green{
+  background-image: url(../img/buttriso.jpg);
+  background-size: 75px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  position :relative;
+  animation-name : vert;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#btn-yellow{
+  background-image: url(../img/butgirl.jpg);
+  background-size: 75px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  position :relative;
+  animation-name : jaune;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bleu{
+  0%   {left:550px; top:200px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:100px; top:450px;}
+  100% {left:550px; top:200px;}
+}
+@keyframes rouge{
+  0%   {left:0px; top:0px;}
+  25%  {left:550px; top:0px;}
+  50%  {left:100px; top:450px;}
+  75%  {left:550px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+  @keyframes vert{
+    0%   {left:0px; top:0px;}
+    25%  {left:550px; top:0px;}
+    50%  {left:550px; top:375px;}
+    75%  {left:0px; top:375px;}
+    100% {left:0px; top:0px;}
+  }
+    @keyframes jaune{
+      0%   {left:250px; top:75px;}
+      25%  {left:450px; top:100px;}
+      50%  {left:0px; top:0px;}
+      75%  {left:0px; top:300px;}
+      100% {left:250px; top:75px;}
+    }
